@@ -1,0 +1,119 @@
+
+
+body, ul, li, a {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	background-image:url(../img/ecailles.png);
+}
+#banner_box {
+    width: 100%;
+	height: 130px;
+	background: #0058d4;}
+#banner {
+    margin: 0 auto;
+    width: 60%;
+	}
+#outter_rapper {
+	margin: 0px;
+	padding: 0px;
+	height: 50px;
+	width: 100%;
+	border-top: 1px solid rgba(0, 0, 0, 0.26);
+	-webkit-box-shadow:  0 25px 15px -21px black;
+    box-shadow:  0 25px 15px -21px black;
+	background: rgb(109,179,242); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzZkYjNmMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzU0YTNlZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iIzM2OTBmMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxZTY5ZGUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(109,179,242,1) 0%, rgba(84,163,238,1) 50%, rgba(54,144,240,1) 51%, rgba(30,105,222,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(109,179,242,1)), color-stop(50%,rgba(84,163,238,1)), color-stop(51%,rgba(54,144,240,1)), color-stop(100%,rgba(30,105,222,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(109,179,242,1) 0%,rgba(84,163,238,1) 50%,rgba(54,144,240,1) 51%,rgba(30,105,222,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(109,179,242,1) 0%,rgba(84,163,238,1) 50%,rgba(54,144,240,1) 51%,rgba(30,105,222,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(109,179,242,1) 0%,rgba(84,163,238,1) 50%,rgba(54,144,240,1) 51%,rgba(30,105,222,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(109,179,242,1) 0%,rgba(84,163,238,1) 50%,rgba(54,144,240,1) 51%,rgba(30,105,222,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', endColorstr='#1e69de',GradientType=0 ); /* IE6-8 */
+}
+#outter_rapper #inna_rapper {
+	margin: 0 auto;
+	height: 50px;
+	width: 987px;
+}
+#outter_rapper #inna_rapper #menu ul li {
+	float: left;
+	position: relative;
+	z-index: 250;
+	border-left: 1px solid rgba(0, 0, 0, 0.26);
+	border-right: 1px solid rgba(0, 0, 0, 0.26);
+	list-style-type: none;
+}
+#outter_rapper #inna_rapper #menu ul li a {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	line-height: 50px;
+	height: 50px;
+	width: 139px;
+	text-align: center;
+	text-shadow: 2px 2px 5px #000000;
+	-webkit-transition: background-color .25s ease;
+	-moz-transition: background-color .25s ease;
+	-ms-transition: background-color .25s ease;
+	-o-transition: background-color .25s ease;
+	transition: background-color .25s ease;
+}
+#outter_rapper #inna_rapper #menu ul ul {
+	position: absolute;
+	visibility: hidden;
+	padding: 10px;
+	width: 550px;
+	z-index: 200;
+	opacity: 0;
+	border-radius: 0 0 10px 10px;
+	background-color: rgba(42, 42, 42, 0.85);
+	border-bottom: 2px solid rgba(42, 42, 42, 0.69);
+	border-left: 2px solid rgba(42, 42, 42, 0.69);
+	border-right: 2px solid rgba(42, 42, 42, 0.69);
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+}
+#outter_rapper #inna_rapper #menu ul ul li {
+	height: 30px;
+	float: left;
+	border: none;
+}
+#outter_rapper #inna_rapper #menu ul ul li a {
+	line-height: 30px;
+	padding: 0;
+	margin: 0;
+	width: 270px;
+	text-align: left;
+	border-left: none;
+	float: left;
+}
+#outter_rapper #inna_rapper #menu ul li:hover ul  {
+	opacity:1;
+	top: 50px;
+	z-index: 200;
+	visibility: visible;	
+}
+#outter_rapper #inna_rapper #menu ul li:hover {
+	background-color: #0058D4;
+}
+#outter_rapper #inna_rapper #menu ul li ul li:hover {
+	background-color: transparent;
+}
+#outter_rapper #inna_rapper #menu ul li a:hover {
+	background-color: #0058D4;
+}
+#outter_rapper #inna_rapper #menu ul ul li:hover a {
+	text-decoration: underline;
+}
+#outter_rapper #inna_rapper #menu ul ul:hover a {
+	background-color: transparent;
+}

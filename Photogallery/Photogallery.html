@@ -1,0 +1,144 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/b/378 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>NEWLO: Photo Gallery</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+
+  <!-- CSS: implied media=all -->
+  <!-- CSS concatenated and minified via ant build script-->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- end CSS-->
+
+  <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+
+  <!-- All JavaScript at the bottom, except for Modernizr / Respond.
+       Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
+       For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
+  <script src="js/libs/modernizr-2.0.6.min.js"></script>
+  <link rel="shortcut icon" href="favicon.ico"  />
+  
+
+ <script type="text/javascript" src="swfobject.js"></script>
+
+<style type="text/css">	
+
+	/* hide from ie on mac \*/
+
+	html {
+
+		height: 100%;
+
+		overflow: hidden;
+
+	}
+
+	
+
+	#flashcontent {
+
+		height: 100%;
+
+	}
+
+	/* end hide */
+
+
+
+	body {
+
+		height: 100%;
+
+		margin: 0;
+
+		padding: 0;
+
+		background-color: 333333;
+
+		color: #ffffff;
+
+	}
+	
+	
+	
+	#outter_rapper {
+		background: #45484d; /* Old browsers */
+background: -moz-linear-gradient(top,  #45484d 0%, #000000 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#45484d), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #45484d 0%,#000000 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #45484d 0%,#000000 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #45484d 0%,#000000 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #45484d 0%,#000000 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+
+	}
+
+</style>
+</head>
+
+<body>
+			
+			
+	<div id="outter_rapper">
+		<div id="inna_rapper">
+			<div id="menu">
+				<ul>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="../Depar.html" class="drop">Departments</a></li>
+					  <li><a href="../NewsandRecent.html" class="log">News and Recent</a></li>
+					  <li><a href="../Photogallery.html" style="background-color: #0058d4">Photo Gallery</a></li>
+					  <li><a href="../Staff.html">Staff</a></li>
+					  <li><a href="../AboutUs.html">About Us</a></li>
+					  <li><a href="../contact.php">Contact Us</a></li>
+				</ul>
+			</div><!--end of menu --> 
+            </div><!--end of inna_rapper-->
+</div><!--end of outter_rapper-->
+  
+
+
+	
+
+				<div id="flashcontent">AutoViewer requires Adobe Flash. <a href="http://www.macromedia.com/go/getflashplayer/">Get Adobe Flash.</a> If you have Flash installed, <a href="index.html?detectflash=false">click to view gallery</a></div>	
+
+	<script type="text/javascript">
+
+		var fo = new SWFObject("viewer.swf", "viewer", "100%", "95%", "8", "333333" );
+
+		fo.addParam("scale", "noscale");
+
+		fo.addParam("quality", "best");
+		
+		fo.addParam("wmode", "opaque");
+
+		fo.write("flashcontent");
+
+		fo.addVariable( "langOpenImage", "Open Image in New Window");
+
+		fo.addVariable("langAbout", "About");
+
+	</script>
+
+
+
+
+
+
+  </body>
+</html>
